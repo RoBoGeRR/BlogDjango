@@ -16,7 +16,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 CSRF_TRUSTED_ORIGINS = [
-    '*',
+    # 'https://blogdjango-production-d79a.up.railway.app/',
+    'https://blogdjango-production'
     # Add other trusted origins here if needed.
 ]
 # Quick-start development settings - unsuitable for production
